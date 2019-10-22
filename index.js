@@ -14,7 +14,7 @@ const users = ['Rafael', 'Lindoso', 'Araújo']
 
 //http://localhost:3000/users/20?nome=Lindoso
 server.get('/users', (req, res) => {
-  return res.json( users[index] );
+  return res.json( users );
 })
 
 server.get('/users/:index', (req, res) => {
